@@ -1,160 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aperture</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<body>
-    <header>
-        <a href=""></a>
-        <nav>
-            <ul>
-                <li><a href="">Business areas</a></li>
-                <li><a href="">Featured images</a></li>
-                <li><a href="">Gear cage</a></li>
-                <li><a href="">Contact</a></li>
-                <li><button type="button">Get template</button></li>
-            </ul>
-        </nav>
+  <body>
+    <header class="header">
+      <a href="./index.html"
+        ><img src="./images/logo.svg" class="header-logo" alt="logo"
+      /></a>
+      <nav class="header-menu">
+        <ul class="list">
+          <li class="header-item">
+            <a href="#" class="header-link">Business areas</a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-link">Featured images</a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-link">Gear cage</a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-link">Contact</a>
+          </li>
+          <li class="header-item">
+            <button type="button" class="header-btn">Get template</button>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="hero">
-            <p>Photographer & Filmmaker</p>
-            <h1>Aperture Studios</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                tristique.
-                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-                Aenean
-                faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-        </section>
-        <section>
-            <h2>What we do.</h2>
-            <p>The areas that we're specialized in.</p>
-            <ul>
-                <li>
-                    <img src="./images/works-img-1.jpg" alt="">
-                    <h3>Product Photography</h3>
-                    <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
-                        Etiam ut
-                        orci varius, faucibus libero ac, cursus quam.</p>
-                    <button type="button">Read more</button>
-                </li>
-                <li>
-                    <img src="./images/works-img-2.jpg" alt="">
-                    <h3>Architecture Photography</h3>
-                    <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra,
-                        ligula est
-                        semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus
-                        leo
-                        imperdiet nec.</p>
-                    <button type="button">Read more</button>
-                </li>
-                <li>
-                    <img src="./images/works-img-3.jpg" alt="">
-                    <h3>Drone Photography</h3>
-                    <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a
-                        vestibulum.
-                        Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
-                        Etiam ut
-                        orci varius, faucibus libero ac, cursus quam.</p>
-                    <button type="button">Read more</button>
-                </li>
-                <li>
-                    <img src="./images/works-img-4.jpg" alt="">
-                    <h3>Wildlife Photography</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
-                        faucibus.
-                        Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et,
-                        vulputate ut
-                        ligula. Vestibulum sit amet urna turpis.</p>
-                    <button type="button">Read more</button>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <!--Photo on background-->
-            <h3>Sunset at Mount Fuji</h3>
-            <p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <h3>The Gear cage</h3>
-                </li>
-                <li>
-                    <p>The tools that we use.</p>
-                </li>
-                <li>
-                    <p>The say that "no place is boring if you've had a good night's sleep and have a pocket full of
-                        unexposed film". While we don't shoot (a lot) of film these days — these are the tools that we
-                        actually use everyday to capture the amazing things around us.</p>
-                </li>
-                <li><button type="button">Check it out</button></li>
-            </ul>
-            <img src="./images/tools-img.jpg" alt="">
-        </section>
-        <section>
-            <!--Photo on background-->
-            <h3>Monstera Leafs</h3>
-            <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
-        </section>
-        <section>
-            <h2>Past clients</h2>
-            <p>Trusted by your favourite companies</p>
-            <a href=""><img src="./images/partners-1.svg" alt=""></a>
-            <a href=""><img src="./images/partners-2.svg" alt=""></a>
-            <a href=""><img src="./images/partners-3.svg" alt=""></a>
-            <a href=""><img src="./images/partners-4.svg" alt=""></a>
-            <a href=""><img src="./images/partners-5.svg" alt=""></a>
-        </section>
-        <section>
-            <!--Photo on background-->
-            <h3>Star fall in the Himalayas</h3>
-            <p>Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut
-                ligula.</p>
-        </section>
-        <section>
-            <h2>Need help with photography or videography?</h2>
-            <p>We're here for you!</p>
-            <button type="button">Get in touch</button>
-        </section>
+      <section class="banner">
+        <p class="banner-suptitle">Photographer & Filmmaker</p>
+        <h1 class="banner-title">Aperture Studios</h1>
+        <p class="banner-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+          Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
+          ut sem vitae risus tristique posuere.
+        </p>
+      </section>
+      <section class="section">
+        <h2 class="section-title">What we do.</h2>
+        <p>The areas that we're specialized in.</p>
+        <ul class="list">
+          <li>
+            <img src="./images/works-img-1.jpg" alt="" />
+            <h3>Product Photography</h3>
+            <p>
+              Cras commodo consequat orci, in convallis risus egestas non. Nulla
+              efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero
+              ac, cursus quam.
+            </p>
+            <button type="button">Read more</button>
+          </li>
+          <li>
+            <img src="./images/works-img-2.jpg" alt="" />
+            <h3>Architecture Photography</h3>
+            <p>
+              Aenean porta neque eget consequat fringilla. Vestibulum ultrices,
+              orci nec egestas pharetra, ligula est semper enim, nec auctor
+              sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet
+              rhoncus leo imperdiet nec.
+            </p>
+            <button type="button">Read more</button>
+          </li>
+          <li>
+            <img src="./images/works-img-3.jpg" alt="" />
+            <h3>Drone Photography</h3>
+            <p>
+              Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+              Duis tristique sed lorem a vestibulum. Cras commodo consequat
+              orci, in convallis risus egestas non. Nulla efficitur auctor
+              hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.
+            </p>
+            <button type="button">Read more</button>
+          </li>
+          <li>
+            <img src="./images/works-img-4.jpg" alt="" />
+            <h3>Wildlife Photography</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros
+              quis consectetur. Morbi neque ex, condimentum dapibus congue et,
+              vulputate ut ligula. Vestibulum sit amet urna turpis.
+            </p>
+            <button type="button">Read more</button>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <!--Photo on background-->
+        <h3>Sunset at Mount Fuji</h3>
+        <p>
+          Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in
+          convallis risus egestas non.
+        </p>
+      </section>
+      <section>
+        <ul class="list">
+          <li>
+            <h3>The Gear cage</h3>
+          </li>
+          <li>
+            <p>The tools that we use.</p>
+          </li>
+          <li>
+            <p>
+              The say that "no place is boring if you've had a good night's
+              sleep and have a pocket full of unexposed film". While we don't
+              shoot (a lot) of film these days — these are the tools that we
+              actually use everyday to capture the amazing things around us.
+            </p>
+          </li>
+          <li><button type="button">Check it out</button></li>
+        </ul>
+        <img src="./images/tools-img.jpg" alt="" />
+      </section>
+      <section>
+        <!--Photo on background-->
+        <h3>Monstera Leafs</h3>
+        <p>
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices,
+          ut faucibus orci tincidunt.
+        </p>
+      </section>
+      <section>
+        <h2>Past clients</h2>
+        <p>Trusted by your favourite companies</p>
+        <a href=""><img src="./images/partners-1.svg" alt="" /></a>
+        <a href=""><img src="./images/partners-2.svg" alt="" /></a>
+        <a href=""><img src="./images/partners-3.svg" alt="" /></a>
+        <a href=""><img src="./images/partners-4.svg" alt="" /></a>
+        <a href=""><img src="./images/partners-5.svg" alt="" /></a>
+      </section>
+      <section>
+        <!--Photo on background-->
+        <h3>Star fall in the Himalayas</h3>
+        <p>
+          Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex,
+          condimentum dapibus congue et, vulputate ut ligula.
+        </p>
+      </section>
+      <section>
+        <h2>Need help with photography or videography?</h2>
+        <p>We're here for you!</p>
+        <button type="button">Get in touch</button>
+      </section>
     </main>
     <footer>
-  <a href=""></a>
-  <p>Photographers & videographers capturing the world around us.</p>
-  <ul>
-    <li>
-        <h3>Business areas</h3>
-    </li>
-    <li><a href="">Product Photography</a></li>
-    <li><a href="">Architecture Photography</a></li>
-    <li><a href="">Drone Photography</a></li>
-    <li><a href="">Wildlife Photography</a></li>
-  </ul>
-   <ul>
-       <li>
-           <h3>Pages</h3>
-       </li>
-       <li><a href="">Gear cage</a></li>
-       <li><a href="">Featured images</a></li>
-       <li><a href="">Contact</a></li>
-       <li><a href="">Style guide</a></li>
-       <li><a href="">Instructions</a></li>
-       <li><a href="">Changelog</a></li>
-   </ul>
-   <h3>Subscribe to our newsletter</h3>
-   <p>Read about all the things we do.</p>
-   <p> &copy; Aperture Photography, Inc. All rights reserved.</p>
-   <ul>
-    <li><a href=""><img src="" alt=""></a></li>
-    <li><a href=""><img src="" alt=""></a></li>
-    <li><a href=""><img src="" alt=""></a></li>
-   </ul>
+      <a href=""></a>
+      <p>Photographers & videographers capturing the world around us.</p>
+      <ul class="list">
+        <li>
+          <h3>Business areas</h3>
+        </li>
+        <li><a href="">Product Photography</a></li>
+        <li><a href="">Architecture Photography</a></li>
+        <li><a href="">Drone Photography</a></li>
+        <li><a href="">Wildlife Photography</a></li>
+      </ul>
+      <ul class="list">
+        <li>
+          <h3>Pages</h3>
+        </li>
+        <li><a href="">Gear cage</a></li>
+        <li><a href="">Featured images</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Style guide</a></li>
+        <li><a href="">Instructions</a></li>
+        <li><a href="">Changelog</a></li>
+      </ul>
+      <h3>Subscribe to our newsletter</h3>
+      <p>Read about all the things we do.</p>
+      <p>&copy; Aperture Photography, Inc. All rights reserved.</p>
+      <ul class="list">
+        <li>
+          <a href=""><img src="" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="" alt="" /></a>
+        </li>
+      </ul>
     </footer>
-</body>
-
+  </body>
 </html>
