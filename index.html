@@ -16,34 +16,34 @@
 
   <body>
     <header class="header">
-      <a href="./index.html"
-        ><img src="./images/logo.svg" class="header-logo" alt="logo"
-      /></a>
-      <nav class="header-menu">
-        <ul class="list">
-          <li class="header-item">
-            <a href="#" class="header-link">Business areas</a>
-          </li>
-          <li class="header-item">
-            <a href="#" class="header-link">Featured images</a>
-          </li>
-          <li class="header-item">
-            <a href="#" class="header-link">Gear cage</a>
-          </li>
-          <li class="header-item">
-            <a href="#" class="header-link">Contact</a>
-          </li>
-          <li class="header-item">
-            <button type="button" class="header-btn">Get template</button>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="header-menu">
+          <a href="./index.html" class="header-logo"
+            ><img src="./images/logo.svg" alt="logo text"
+          /></a>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="#" class="header-link">Business areas</a>
+            </li>
+            <li class="header-item">
+              <a href="#" class="header-link">Featured images</a>
+            </li>
+            <li class="header-item">
+              <a href="#" class="header-link">Gear cage</a>
+            </li>
+            <li class="header-item">
+              <a href="#" class="header-link">Contact</a>
+            </li>
+          </ul>
+          <button type="button" class="header-btn">Get template</button>
+        </nav>
+      </div>
     </header>
     <main>
-      <section class="banner">
-        <p class="banner-suptitle">Photographer & Filmmaker</p>
-        <h1 class="banner-title">Aperture Studios</h1>
-        <p class="banner-description">
+      <section class="hero">
+        <p class="hero-suptitle list">Photographer & Filmmaker</p>
+        <h1 class="hero-title list">Aperture Studios</h1>
+        <p class="hero-description list">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros elementum tristique. Duis cursus, mi quis viverra
           ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
@@ -52,150 +52,210 @@
         </p>
       </section>
       <section class="section">
-        <h2 class="section-title">What we do.</h2>
-        <p>The areas that we're specialized in.</p>
-        <ul class="list">
-          <li>
-            <img src="./images/works-img-1.jpg" alt="" />
-            <h3>Product Photography</h3>
-            <p>
-              Cras commodo consequat orci, in convallis risus egestas non. Nulla
-              efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero
-              ac, cursus quam.
-            </p>
-            <button type="button">Read more</button>
-          </li>
-          <li>
-            <img src="./images/works-img-2.jpg" alt="" />
-            <h3>Architecture Photography</h3>
-            <p>
-              Aenean porta neque eget consequat fringilla. Vestibulum ultrices,
-              orci nec egestas pharetra, ligula est semper enim, nec auctor
-              sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet
-              rhoncus leo imperdiet nec.
-            </p>
-            <button type="button">Read more</button>
-          </li>
-          <li>
-            <img src="./images/works-img-3.jpg" alt="" />
-            <h3>Drone Photography</h3>
-            <p>
-              Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+        <div class="container">
+          <h2 class="section-title list">What we do.</h2>
+          <p class="section-description list">
+            The areas that we're specialized in.
+          </p>
+          <ul class="section-list list">
+            <li class="section-item first-work">
+              <div class="card-content">
+                <h3 class="card-title list">Product Photography</h3>
+                <p class="card-description list">
+                  Cras commodo consequat orci, in convallis risus egestas non.
+                  Nulla efficitur auctor hendrerit. Etiam ut orci varius,
+                  faucibus libero ac, cursus quam.
+                </p>
+                <a href="#" class="section-btn"
+                  ><span class="back-btn"></span>Read more</a
+                >
+              </div>
+            </li>
+            <li class="section-item second-work">
+              <div class="card-content">
+                <h3 class="card-title list">Architecture Photography</h3>
+                <p class="card-description list">
+                  Aenean porta neque eget consequat fringilla. Vestibulum
+                  ultrices, orci nec egestas pharetra, ligula est semper enim,
+                  nec auctor sapien leo nec purus. Fusce tincidunt aliquet
+                  sapien, sit amet rhoncus leo imperdiet nec.
+                </p>
+                <a href="#" class="section-btn"
+                  ><span class="back-btn"></span>Read more</a
+                >
+              </div>
+            </li>
+            <li class="section-item three-work">
+              <div class="card-content">
+                <h3 class="card-title list">Drone Photography</h3>
+                <p class="card-description list">
+                  Mauris euismod elit et nisi ultrices, ut faucibus orci
+                  tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo
+                  consequat orci, in convallis risus egestas non. Nulla
+                  efficitur auctor hendrerit. Etiam ut orci varius, faucibus
+                  libero ac, cursus quam.
+                </p>
+                <a href="#" class="section-btn"
+                  ><span class="back-btn"></span>Read more</a
+                >
+              </div>
+            </li>
+            <li class="section-item four-work">
+              <div class="card-content">
+                <h3 class="card-title list">Wildlife Photography</h3>
+                <p class="card-description list">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus
+                  feugiat eros quis consectetur. Morbi neque ex, condimentum
+                  dapibus congue et, vulputate ut ligula. Vestibulum sit amet
+                  urna turpis.
+                </p>
+                <a href="#" class="section-btn"
+                  ><span class="back-btn"></span>Read more</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="banner-sunset">
+        <ul class="banner-list list">
+          <li class="banner-item">
+            <h3 class="banner-title list">Sunset at Mount Fuji</h3>
+            <p class="sunset-description list">
               Duis tristique sed lorem a vestibulum. Cras commodo consequat
-              orci, in convallis risus egestas non. Nulla efficitur auctor
-              hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.
+              orci, in convallis risus egestas non.
             </p>
-            <button type="button">Read more</button>
-          </li>
-          <li>
-            <img src="./images/works-img-4.jpg" alt="" />
-            <h3>Wildlife Photography</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros
-              quis consectetur. Morbi neque ex, condimentum dapibus congue et,
-              vulputate ut ligula. Vestibulum sit amet urna turpis.
-            </p>
-            <button type="button">Read more</button>
           </li>
         </ul>
       </section>
       <section>
-        <!--Photo on background-->
-        <h3>Sunset at Mount Fuji</h3>
-        <p>
-          Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in
-          convallis risus egestas non.
-        </p>
+        <div class="container-gear back">
+          <ul class="gear-list list">
+            <li class="item">
+              <div class="content">
+                <p class="gear-suptitle list">The Gear cage</p>
+                <h3 class="gear-title list">The tools that we use.</h3>
+                <p class="gear-description list">
+                  The say that "no place is boring if you've had a good night's
+                  sleep and have a pocket full of unexposed film". While we
+                  don't shoot (a lot) of film these days — these are the tools
+                  that we actually use everyday to capture the amazing things
+                  around us.
+                </p>
+                
+              <a href="#" class="section-btn"
+                  ><span class="back-btn"></span>Check it out</a
+                >
+              </div>
+                 <img
+                src="./images/tools-img.jpg"
+                class="img-cameras"
+                alt="Cameras and laptop"
+                width="720"
+              />
+        </div>
       </section>
-      <section>
-        <ul class="list">
-          <li>
-            <h3>The Gear cage</h3>
-          </li>
-          <li>
-            <p>The tools that we use.</p>
-          </li>
-          <li>
-            <p>
-              The say that "no place is boring if you've had a good night's
-              sleep and have a pocket full of unexposed film". While we don't
-              shoot (a lot) of film these days — these are the tools that we
-              actually use everyday to capture the amazing things around us.
+      <section class="banner-monstera">
+        <ul class="banner-list list">
+          <li class="banner-item">
+            <h3 class="banner-title list">Monstera Leafs</h3>
+            <p class="monstera-description list">
+              Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
+              ultrices, ut faucibus orci tincidunt.
             </p>
           </li>
-          <li><button type="button">Check it out</button></li>
         </ul>
-        <img src="./images/tools-img.jpg" alt="" />
       </section>
-      <section>
-        <!--Photo on background-->
-        <h3>Monstera Leafs</h3>
-        <p>
-          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices,
-          ut faucibus orci tincidunt.
-        </p>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title list">Past clients</h2>
+          <p class="clients-description list">Trusted by your favourite companies</p>
+          <div class="clients-svg">
+            <a href="#"><svg width="128" height="30"><use href="./images/icons.svg#icon-partners-1" ></use></svg></a>
+            <a href="#"><svg width="128" height="78"><use href="./images/icons.svg#icon-partners-2" ></use></svg></a>
+            <a href="#"><svg width="128" height="20"><use href="./images/icons.svg#icon-partners-3" ></use></svg></a>
+            <a href="#"><svg width="128" height="36"><use href="./images/icons.svg#icon-partners-4" ></use></svg></a>
+            <a href="#"><svg width="128" height="32"><use href="./images/icons.svg#icon-partners-5" ></use></svg></a>
+          </div>
+        </div>
       </section>
-      <section>
-        <h2>Past clients</h2>
-        <p>Trusted by your favourite companies</p>
-        <a href=""><img src="./images/partners-1.svg" alt="" /></a>
-        <a href=""><img src="./images/partners-2.svg" alt="" /></a>
-        <a href=""><img src="./images/partners-3.svg" alt="" /></a>
-        <a href=""><img src="./images/partners-4.svg" alt="" /></a>
-        <a href=""><img src="./images/partners-5.svg" alt="" /></a>
-      </section>
-      <section>
-        <!--Photo on background-->
-        <h3>Star fall in the Himalayas</h3>
-        <p>
+      <section class="banner-star">
+        <ul class="banner-list list">
+          <li class="banner-item">
+            <h3 class="banner-title list">Star fall in the Himalayas</h3>
+        <p class="star-description list">
           Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex,
           condimentum dapibus congue et, vulputate ut ligula.
         </p>
+          </li>
+        </ul>
+        
       </section>
-      <section>
-        <h2>Need help with photography or videography?</h2>
-        <p>We're here for you!</p>
-        <button type="button">Get in touch</button>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title list change"> Need help with photography or videography?</h2>
+          <p class="section-text list">We're here for you!</p>
+            <div class="black-item"> <a href="#" class="section-btn"
+            ><span class="back-btn"></span>Get in touch</a
+          ></div>
+        </div>
       </section>
     </main>
     <footer>
-      <a href=""></a>
-      <p>Photographers & videographers capturing the world around us.</p>
-      <ul class="list">
-        <li>
-          <h3>Business areas</h3>
-        </li>
-        <li><a href="">Product Photography</a></li>
-        <li><a href="">Architecture Photography</a></li>
-        <li><a href="">Drone Photography</a></li>
-        <li><a href="">Wildlife Photography</a></li>
-      </ul>
-      <ul class="list">
-        <li>
-          <h3>Pages</h3>
-        </li>
-        <li><a href="">Gear cage</a></li>
-        <li><a href="">Featured images</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Style guide</a></li>
-        <li><a href="">Instructions</a></li>
-        <li><a href="">Changelog</a></li>
-      </ul>
-      <h3>Subscribe to our newsletter</h3>
-      <p>Read about all the things we do.</p>
-      <p>&copy; Aperture Photography, Inc. All rights reserved.</p>
-      <ul class="list">
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <a href="./index.html">
+              <img src="./images/logo.svg" class="footer-logo" alt="logo text" width="128" height="31"
+          /></a>
+          <p class="footer-description list">Photographers & videographers capturing the world around us.</p>
+          </div>
+        <ul class="footer-list list">
+          <li class="footer-item">
+            <h3 class="footer-title list">Business areas</h3>
+          </li>
+          <li class="footer-item"><a href="#" class="footer-link">Product Photography</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Architecture Photography</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Drone Photography</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Wildlife Photography</a></li>
+        </ul>
+        <ul class="footer-list list">
+          <li class="footer-item">
+            <h3 class="footer-title list">Pages</h3>
+          </li>
+          <li class="footer-item"><a href="#" class="footer-link">Gear cage</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Featured images</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Contact</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Style guide</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Instructions</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Changelog</a></li>
+        </ul>
+        </div>
+        <h3 class="footer-subscribe-title current list">Subscribe to our newsletter</h3>
+        <p class="footer-description subscribe">Read about all the things we do.</p>
+        <div class="footer-social-networks current">
+        <p class="footer-policy list">&copy; Aperture Photography, Inc. All rights reserved.</p>
+        <ul class="footer-network list">
+          <li class="footer-network-item">
+            <a href=""><svg width="24" height="20">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg></a>
+          </li>
+          <li class="footer-network-item">
+            <a href=""><svg width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg></a>
+          </li>
+          <li class="footer-network-item">
+            <a href=""><svg width="12" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg></a>
+          </li>
+        </ul>
+        </div>   
+        
+      </div>
     </footer>
   </body>
 </html>
