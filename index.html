@@ -35,7 +35,15 @@
               <a href="#" class="header-link">Contact</a>
             </li>
           </ul>
-          <button type="button" class="header-btn">Get template</button>
+          <button type="button" class="header-btn" data-modal-open>Get template</button>
+         <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button data-modal-close type="button" class="btn-close">
+                <svg width="8" height="8">
+                  <use href="./images/icons.svg#icon-close-back"></use>
+                </svg>
+              </button>
+            </div>
         </nav>
       </div>
     </header>
@@ -50,6 +58,13 @@
           Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
           ut sem vitae risus tristique posuere.
         </p>
+        <ul class="svg-content">
+         <li><svg width="16">
+            <use href="./images/icons.svg#icon-combined-shape">1/2000s</use>
+          </svg>
+          <p>1/2000s</p></li> 
+          <li>svg>use</li>
+        </ul>
       </section>
       <section class="section">
         <div class="container">
@@ -194,7 +209,7 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="section-title list change"> Need help with photography or videography?</h2>
+          <h2 class="section-title change"> Need help with photography or videography?</h2>
           <p class="section-text list">We're here for you!</p>
             <div class="black-item"> <a href="#" class="section-btn"
             ><span class="back-btn"></span>Get in touch</a
@@ -257,5 +272,6 @@
         
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
