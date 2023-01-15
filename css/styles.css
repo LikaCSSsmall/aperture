@@ -171,6 +171,24 @@ body {
   margin-right: auto;
 }
 
+.svg-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.svg-icon.big {
+    display: block;
+    width: 32px;
+}
+
+.icon-description {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 12px;
+}
+
 .section {
   padding-top: 113px;
   padding-bottom: 113px;
