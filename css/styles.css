@@ -25,6 +25,10 @@ body {
   margin: 0 auto;
 }
 
+.header-container {
+  display: flex;
+}
+
 .header-logo {
   display: flex;
   align-items: center;
@@ -32,16 +36,13 @@ body {
 
 .header-menu {
   display: flex;
+  margin-left: auto;
 }
 
 .header-list {
   display: flex;
   align-items: center;
-  margin-left: auto;
-}
-
-.header-list .header-item + .header-item {
-  margin-left: 56px;
+  gap: 56px;
 }
 
 .header-link {
