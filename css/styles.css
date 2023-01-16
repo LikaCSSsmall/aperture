@@ -186,7 +186,16 @@ body {
     padding: 0;
     margin: 0;
     font-size: 12px;
+    margin-top: -4px;
     line-height: 12px;
+}
+
+.svg-icon{
+    margin-right: 5px;
+}
+
+.svg-content:nth-child(2n){
+  margin-left: 16px;
 }
 
 .section {
@@ -325,19 +334,14 @@ body {
   color: var(--color-description);
 }
 
-.container-gear {
+.gear-container {
   width: 1440px;
   margin: 0 auto;
 }
 
-.gear-list > .item {
-  display: flex;
-  align-items: center;
-}
-
-.gear-list .item:first-child .content{
-  margin-left: 100px;
-  margin-right: 106px;
+.back {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -362,8 +366,13 @@ body {
   line-height: 1.4;
 }
 
+.gear-content{
+  margin-left: 100px;
+}
+
 .img-cameras {
   display: block;
+  margin-left: auto;
 }
 
 .banner-monstera {
