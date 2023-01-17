@@ -167,15 +167,22 @@ body {
   font-size: 14px;
   line-height: 1.4;
   width: 580px;
+  margin-bottom: 14px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-.svg-content {
+.hero-svg-content {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    gap:16px;
+}
+
+.svg-content-item {
+    display: flex;
+    align-items: center;
 }
 
 .svg-icon.big {
@@ -187,7 +194,6 @@ body {
     padding: 0;
     margin: 0;
     font-size: 12px;
-    margin-top: -4px;
     line-height: 12px;
 }
 
@@ -195,9 +201,6 @@ body {
     margin-right: 5px;
 }
 
-.svg-content:nth-child(2n){
-  margin-left: 16px;
-}
 
 .section {
   padding-top: 113px;
@@ -313,12 +316,21 @@ body {
 }
 
 .banner-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 260px;
-  float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 260px;
 }
+
+.banner-svg-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 206px;
+    margin-right: 40px;
+    gap: 16px;
+}
+
 
 .banner-title {
   font-size: 14px;
@@ -338,6 +350,7 @@ body {
 .gear-container {
   width: 1440px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .back {
