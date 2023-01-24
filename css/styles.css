@@ -121,6 +121,7 @@ body {
     align-items: center;
     justify-content: flex-end;
     gap:16px;
+    margin-right:40px;
 }
 
 .svg-content-item {
