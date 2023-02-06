@@ -19,30 +19,64 @@
       <nav class="header-menu">
         <ul class="header-list list">
           <li class="header-item">
-            <a href="#" class="header-link">Business areas</a>
+            <a href="#" class="header-link link">Business areas</a>
           </li>
           <li class="header-item">
-            <a href="#" class="header-link">Featured images</a>
+            <a href="#" class="header-link link">Featured images</a>
           </li>
           <li class="header-item">
-            <a href="#" class="header-link">Gear cage</a>
+            <a href="#" class="header-link link">Gear cage</a>
           </li>
           <li class="header-item">
-            <a href="#" class="header-link">Contact</a>
+            <a href="#" class="header-link link">Contact</a>
           </li>
         </ul>
       </nav>
-      <button type="button" class="header-btn btn">
+      <button type="button" class="header-btn btn" data-modal-open>
         Get template
       </button>
+       <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button data-modal-close type="button" class="btn-close">
+                <svg width="8" height="8">
+                  <use href="./images/icons.svg#icon-close-back"></use>
+                </svg>
+              </button>
+             <form class="form-modal">
+              <div class="form-content">
+                 <label class="form-label">
+                  <span class="form-name">Name</span>
+                <input class="input-modal" type="text" name="user-name" required>
+              </div>
+                <div class="form-content">
+                  <label class="form-label">
+                    <span class="form-name">Phone</span>
+                <input class="input-modal" type="tel" name="tel" required>
+              </label>
+                </div>
+             <div class="form-content" >
+              <label class="form-label">
+                <span class="form-name">Email</span>
+                <input class="input-modal" type="email" name="email" required>
+              </label>
+             </div>  
+            
+               <div class="form-content">
+                <input class="check-input" id="user-policy" type="checkbox" required name="privacy-policy" />
+                <label for="user-policy" class="modal-form-desc">
+                  I accept the terms and conditions of the <a href="#" class="policy-link">Privacy Policy</a>
+                </label>
+              </div>
+              <button type="submit" class="form-modal-btn btn">Send</button>
+             </form>
       </div>
     </div>
   </header>
   <main>
     <section class="hero">
-      <p class="hero-suptitle list">Photographer & Filmmaker</p>
-      <h1 class="hero-title list">Aperture Studios</h1>
-      <p class="hero-description list">
+      <p class="hero-suptitle">Photographer & Filmmaker</p>
+      <h1 class="hero-title">Aperture Studios</h1>
+      <p class="hero-description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         varius enim in eros elementum tristique. Duis cursus, mi quis viverra
         ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
@@ -78,58 +112,58 @@
     </section>
     <section class="section">
       <div class="container">
-        <h2 class="section-title list">What we do.</h2>
-        <p class="section-description list">
+        <h2 class="section-title">What we do.</h2>
+        <p class="section-description">
           The areas that we're specialized in.
         </p>
         <ul class="section-list list">
           <li class="section-item first-work">
             <div class="card-content">
-              <h3 class="card-title list">Product Photography</h3>
-              <p class="card-description list">
+              <h3 class="card-title">Product Photography</h3>
+              <p class="card-description">
                 Cras commodo consequat orci, in convallis risus egestas non.
                 Nulla efficitur auctor hendrerit. Etiam ut orci varius,
                 faucibus libero ac, cursus quam.
               </p>
-              <a href="#" class="section-btn"><span class="back-btn"></span>Read more</a>
+              <a href="#" class="section-btn link"><span class="back-btn"></span>Read more</a>
             </div>
           </li>
           <li class="section-item second-work">
             <div class="card-content">
-              <h3 class="card-title list">Architecture Photography</h3>
-              <p class="card-description list">
+              <h3 class="card-title">Architecture Photography</h3>
+              <p class="card-description">
                 Aenean porta neque eget consequat fringilla. Vestibulum
                 ultrices, orci nec egestas pharetra, ligula est semper enim,
                 nec auctor sapien leo nec purus. Fusce tincidunt aliquet
                 sapien, sit amet rhoncus leo imperdiet nec.
               </p>
-              <a href="#" class="section-btn"><span class="back-btn"></span>Read more</a>
+              <a href="#" class="section-btn link"><span class="back-btn"></span>Read more</a>
             </div>
           </li>
           <li class="section-item three-work">
             <div class="card-content">
-              <h3 class="card-title list">Drone Photography</h3>
-              <p class="card-description list">
+              <h3 class="card-title">Drone Photography</h3>
+              <p class="card-description">
                 Mauris euismod elit et nisi ultrices, ut faucibus orci
                 tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo
                 consequat orci, in convallis risus egestas non. Nulla
                 efficitur auctor hendrerit. Etiam ut orci varius, faucibus
                 libero ac, cursus quam.
               </p>
-              <a href="#" class="section-btn"><span class="back-btn"></span>Read more</a>
+              <a href="#" class="section-btn link"><span class="back-btn"></span>Read more</a>
             </div>
           </li>
           <li class="section-item four-work">
             <div class="card-content">
-              <h3 class="card-title list">Wildlife Photography</h3>
-              <p class="card-description list">
+              <h3 class="card-title">Wildlife Photography</h3>
+              <p class="card-description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus
                 feugiat eros quis consectetur. Morbi neque ex, condimentum
                 dapibus congue et, vulputate ut ligula. Vestibulum sit amet
                 urna turpis.
               </p>
-              <a href="#" class="section-btn"><span class="back-btn"></span>Read more</a>
+              <a href="#" class="section-btn link"><span class="back-btn"></span>Read more</a>
             </div>
           </li>
         </ul>
@@ -138,8 +172,8 @@
     <section class="banner-sunset">
       <ul class="banner-list list">
         <li class="banner-item">
-          <h3 class="banner-title list">Sunset at Mount Fuji</h3>
-          <p class="sunset-description list">
+          <h3 class="banner-title">Sunset at Mount Fuji</h3>
+          <p class="sunset-description">
             Duis tristique sed lorem a vestibulum. Cras commodo consequat
             orci, in convallis risus egestas non.
           </p>
@@ -176,15 +210,15 @@
       <div class="gear-container back">
         <ul class="gear-content list">
           <li class="gear-item">
-            <p class="gear-suptitle list">The Gear cage</p>
-            <h3 class="gear-title list">The tools that we use.</h3>
-            <p class="gear-description list">
+            <p class="gear-suptitle">The Gear cage</p>
+            <h3 class="gear-title">The tools that we use.</h3>
+            <p class="gear-description">
               The say that "no place is boring if you've had a good night's
               sleep and have a pocket full of unexposed film". While we don't
               shoot (a lot) of film these days — these are the tools that we
               actually use everyday to capture the amazing things around us.
             </p>
-            <a href="#" class="section-btn"><span class="back-btn"></span>Check it out</a>
+            <a href="#" class="section-btn link"><span class="back-btn"></span>Check it out</a>
           </li>
         </ul>
         <img src="./images/tools-img.jpg" class="img-cameras" alt="Cameras and laptop" max-width="720" height="540" />
@@ -219,8 +253,8 @@
     <section class="banner-monstera">
       <ul class="banner-list list">
         <li class="banner-item">
-          <h3 class="banner-title list">Monstera Leafs</h3>
-          <p class="monstera-description list">
+          <h3 class="banner-title">Monstera Leafs</h3>
+          <p class="monstera-description">
             Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
             ultrices, ut faucibus orci tincidunt.
           </p>
@@ -255,34 +289,34 @@
     </section>
     <section class="section">
       <div class="container">
-        <h2 class="section-title list">Past clients</h2>
-        <p class="clients-description list">
+        <h2 class="section-title">Past clients</h2>
+        <p class="clients-description">
           Trusted by your favourite companies
         </p>
         <div class="clients-svg">
-          <a href="#"><svg width="128" height="30">
+          <a href="#" class="link"><svg width="128" height="30">
               <use href="./images/icons.svg#icon-partners-1"></use>
             </svg></a>
-          <a href="#"><svg width="128" height="78">
+          <a href="#" class="link"><svg width="128" height="78">
               <use href="./images/icons.svg#icon-partners-2"></use>
             </svg></a>
-          <a href="#"><svg width="128" height="20">
+          <a href="#" class="link"><svg width="128" height="20">
               <use href="./images/icons.svg#icon-partners-3"></use>
             </svg></a>
-          <a href="#"><svg width="128" height="36">
+          <a href="#" class="link"><svg width="128" height="36">
               <use href="./images/icons.svg#icon-partners-4"></use>
             </svg></a>
-          <a href="#"><svg width="128" height="32">
+          <a href="#" class="link"><svg width="128" height="32">
               <use href="./images/icons.svg#icon-partners-5"></use>
             </svg></a>
         </div>
       </div>
     </section>
     <section class="banner-star">
-      <ul class="banner-list list">
+      <ul class="banner-list">
         <li class="banner-item">
-          <h3 class="banner-title list">Star fall in the Himalayas</h3>
-          <p class="star-description list">
+          <h3 class="banner-title">Star fall in the Himalayas</h3>
+          <p class="star-description">
             Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex,
             condimentum dapibus congue et, vulputate ut ligula.
           </p>
@@ -320,9 +354,9 @@
         <h2 class="section-title change">
           Need help with photography or videography?
         </h2>
-        <p class="section-text list">We're here for you!</p>
+        <p class="section-text">We're here for you!</p>
         <div class="black-item">
-          <a href="#" class="section-btn"><span class="back-btn"></span>Get in touch</a>
+          <a href="#" class="section-btn link"><span class="back-btn"></span>Get in touch</a>
         </div>
       </div>
     </section>
@@ -331,57 +365,57 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-info">
-          <a href="./index.html">
+          <a href="./index.html" class="link">
             <img src="./images/logo.svg" class="footer-logo" alt="logo text" width="128" height="31" /></a>
-          <p class="footer-description list">
+          <p class="footer-description">
             Photographers & videographers capturing the world around us.
           </p>
         </div>
         <ul class="footer-list list">
           <li class="footer-item">
-            <h3 class="footer-title list">Business areas</h3>
+            <h3 class="footer-title">Business areas</h3>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-link">Product Photography</a>
+            <a href="#" class="footer-link link">Product Photography</a>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-link">Architecture Photography</a>
+            <a href="#" class="footer-link link">Architecture Photography</a>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-link">Drone Photography</a>
+            <a href="#" class="footer-link link">Drone Photography</a>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-link">Wildlife Photography</a>
+            <a href="#" class="footer-link link">Wildlife Photography</a>
           </li>
         </ul>
         <ul class="footer-list list">
           <li class="footer-item">
-            <h3 class="footer-title list">Pages</h3>
+            <h3 class="footer-title">Pages</h3>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-link">Gear cage</a>
+            <a href="#" class="footer-link link">Gear cage</a>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-link">Featured images</a>
+            <a href="#" class="footer-link link">Featured images</a>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-link">Contact</a>
+            <a href="#" class="footer-link link">Contact</a>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-link">Style guide</a>
+            <a href="#" class="footer-link link">Style guide</a>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-link">Instructions</a>
+            <a href="#" class="footer-link link">Instructions</a>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-link">Changelog</a>
+            <a href="#" class="footer-link link">Changelog</a>
           </li>
         </ul>
       </div>
       <div class="footer-form">
       <ul class="footer-content-list list">
         <li>
-          <h3 class="footer-subscribe-title list">
+          <h3 class="footer-subscribe-title">
             Subscribe to our newsletter
           </h3>
           <p class="footer-description subscribe">
@@ -406,22 +440,22 @@
         </div>
       </div>
       <div class="footer-social-networks">
-        <p class="footer-policy list">
+        <p class="footer-policy">
           &copy; Aperture Photography, Inc. All rights reserved.
         </p>
         <ul class="footer-network list">
           <li class="footer-network-item">
-            <a href="#" class="footer-svg"><svg class="svg-social-network" width="24" height="20">
+            <a href="#" class="footer-svg link"><svg class="svg-social-network" width="24" height="20">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg></a>
           </li>
           <li class="footer-network-item">
-            <a href="#" class="footer-svg"><svg class="svg-social-network" width="24" height="24">
+            <a href="#" class="footer-svg link"><svg class="svg-social-network" width="24" height="24">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg></a>
           </li>
           <li class="footer-network-item">
-            <a href="#" class="footer-svg"><svg class="svg-social-network" width="12" height="24">
+            <a href="#" class="footer-svg link"><svg class="svg-social-network" width="12" height="24">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg></a>
           </li>
@@ -429,6 +463,7 @@
       </div>
     </div>
   </footer>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
