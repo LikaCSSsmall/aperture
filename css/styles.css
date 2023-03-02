@@ -95,6 +95,10 @@ img {
   text-decoration: none;
 }
 
+.header-link:is(:hover,:focus) {
+    color: #b9b5b5;
+}
+
 .header-btn {
   margin-top: 24px;
   margin-bottom: 24px;
@@ -720,6 +724,10 @@ color: var(--primary-text-color);
   display: block;
   color: var(--primary-text-color);
   text-decoration: none;
+}
+
+.footer-link:is(:hover,:focus){
+    color: #b9b5b5;
 }
 
 .footer-social-networks {
